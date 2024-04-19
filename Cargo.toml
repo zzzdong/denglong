@@ -1,0 +1,18 @@
+[package]
+name = "denglong"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lieweb = "0.2"
+
+anyhow = "1"
+tokio = { version = "1", features = ["full" ] }
+serde = { version = "1", features = ["derive"] }
+tracing-subscriber = "0.3"
+tokenizers = "0.19"
+candle-core = { git = "https://github.com/huggingface/candle" }
+candle-nn = { git = "https://github.com/huggingface/candle" }
+candle-transformers = { git = "https://github.com/huggingface/candle" }
+
+
